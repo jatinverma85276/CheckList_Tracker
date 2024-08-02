@@ -1,12 +1,13 @@
 import "./sub.css";
 
 export const PackageInput = ({ item, update, deleteList }) => {
+  console.log(item, "Item CheckInput");
   return (
     <>
       <div className="listItem">
         <input
           type="checkbox"
-          value={item.checkBox}
+          checked={item.checkBox ? true : false}
           onChange={() => update(item.index)}
         />
         <p className={item.checkBox ? "LineCheck" : ""}>{item.id}</p>

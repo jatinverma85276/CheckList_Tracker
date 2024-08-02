@@ -1,8 +1,11 @@
 .header {
   background-color: black;
   width: auto;
-  height: 80px;
+  height: 100px;
   text-align: center;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
 }
 
 .header img {
@@ -30,7 +33,7 @@
 .packageList {
   padding: 0 100px;
   background-color: aquamarine;
-  height: 40rem;
+  height: 38.5rem;
   position: relative;
 }
 
