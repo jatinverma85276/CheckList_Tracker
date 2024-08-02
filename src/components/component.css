@@ -1,0 +1,80 @@
+.header {
+  background-color: black;
+  width: auto;
+  height: 80px;
+  text-align: center;
+}
+
+.header img {
+  height: 100px;
+}
+
+.formTags {
+  background-color: grey;
+}
+
+.formCheck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.function {
+  margin: 0 20px;
+}
+
+.function input {
+  margin: 0 10px;
+}
+
+.packageList {
+  padding: 0 100px;
+  background-color: aquamarine;
+  height: 40rem;
+  position: relative;
+}
+
+.packageListFilter {
+  position: absolute;
+  left: 38rem;
+  bottom: 15px;
+}
+
+.packageListFilter button {
+  margin-left: 15px;
+  margin-left: 15px;
+  border: none;
+  padding: 13px 18px;
+  border-radius: 20px;
+}
+
+.packageListFilter select {
+  border: none;
+  padding: 10px 4px;
+  border-radius: 15px;
+}
+
+.listItem {
+  display: inline-flex;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 6px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.listItem p {
+  margin: 0 10px;
+}
+
+.FooterCheck {
+  text-align: center;
+  height: 60px;
+  background-color: blanchedalmond;
+}
+
+.FooterCheck p {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 18px;
+}
