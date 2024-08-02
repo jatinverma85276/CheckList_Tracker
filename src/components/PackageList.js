@@ -17,9 +17,11 @@ export const PackageList = ({
 
   if (sortlist === "1") {
     sorttedItem = list.slice().sort((a, b) => a.index - b.index);
+    console.log(sorttedItem, "sorttedItemsorttedItem");
   }
   if (sortlist === "2") {
     sorttedItem = list.slice().sort((a, b) => a.checkBox - b.checkBox);
+    console.log(sorttedItem, "sorttedItemsorttedItem");
   }
   return (
     <>
@@ -31,7 +33,6 @@ export const PackageList = ({
           <select onChange={(e) => setSortBy(e.target.value)}>
             <option value="1">Sort By Input Order</option>
             <option value="2">Sort By Packing Status</option>
-            <option></option>
           </select>
           <button onClick={clearlist} style={{ cursor: "pointer" }}>
             Clear List
