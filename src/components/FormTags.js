@@ -15,7 +15,7 @@ export const FormTags = (props) => {
               <option>3</option>
             </select>
             <input type="text" ref={props.inp} />
-            <button onClick={props.addList}>ADD</button>
+            <button onClick={props.addList}>ADD </button>
           </div>
         </div>
       </div>
